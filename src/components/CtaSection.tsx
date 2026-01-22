@@ -12,9 +12,9 @@ const CtaSection = () => {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground leading-tight">
-            Impulsa tu empresa
+            Power up your business
             <br />
-            <span className="text-primary">con el poder de la IA</span>
+            <span className="text-primary">with the power of AI</span>
           </h2>
         </motion.div>
 
@@ -31,7 +31,7 @@ const CtaSection = () => {
             <Play className="w-5 h-5 text-primary-foreground fill-primary-foreground ml-0.5" />
           </div>
           <span className="text-lg font-medium text-foreground">
-            Mira cómo funciona Darwin
+            See how Darwin works
           </span>
         </motion.button>
       </div>

@@ -10,34 +10,34 @@ import {
 
 const faqs = [
   {
-    question: "¿Cómo Darwin AI evita errores de sus empleados digitales?",
+    question: "How does Darwin AI avoid mistakes from its digital employees?",
     answer:
-      "Las respuestas de Darwin son extremadamente precisas gracias a un proceso riguroso que incluye auditorías manuales, tests automáticos y análisis de sentimiento, el cual garantiza cero alucinaciones de parte de su IA.",
+      "Darwin's answers are highly accurate thanks to a rigorous process that includes manual audits, automated tests, and sentiment analysis—ensuring zero hallucinations.",
   },
   {
-    question: "¿Qué otras tareas puede optimizar Darwin?",
+    question: "What other tasks can Darwin optimize?",
     answer:
-      "Darwin no solo responde preguntas, sino que puede ayudar a optimizar tareas como la gestión de agendas, el seguimiento de ventas, la atención al cliente y mucho más, siempre integrándose en tus flujos de trabajo existentes.",
+      "Darwin does more than answer questions. It can optimize scheduling, sales follow-up, customer support, and more—while integrating into your existing workflows.",
   },
   {
-    question: "¿La IA de Darwin aprende sola y evoluciona con las conversaciones?",
+    question: "Does Darwin learn and improve through conversations?",
     answer:
-      "Sí, Darwin está en constante aprendizaje. Con cada interacción, mejora su capacidad para ofrecer respuestas más precisas y adaptarse a tus procesos. Sin embargo, también puedes ajustar manualmente su comportamiento para alinearlo mejor con tus necesidades.",
+      "Yes. Darwin is constantly learning. With each interaction, it improves accuracy and adapts to your processes. You can also fine-tune its behavior to better match your needs.",
   },
   {
-    question: "¿Se le puede dar a Darwin una impronta propia del país de cada cliente?",
+    question: "Can Darwin match the local style of each country?",
     answer:
-      "¡Por supuesto! Darwin puede adaptarse al estilo y tono de comunicación local, reflejando la cultura y preferencias del país en el que operes, para que las interacciones sean más cercanas y naturales.",
+      "Absolutely. Darwin can adapt to the local tone and communication style, reflecting culture and preferences so interactions feel natural and close to your audience.",
   },
   {
-    question: "¿Cuánto tiempo toma entrenar a Darwin?",
+    question: "How long does it take to train Darwin?",
     answer:
-      "El proceso de entrenamiento es rápido. En pocos días, puedes tener a Darwin completamente integrado y funcional, personalizado para tu negocio y con acceso a la información que necesita para operar eficientemente.",
+      "The training process is fast. In just a few days, you can have Darwin fully integrated and running—customized for your business and connected to the information it needs.",
   },
   {
-    question: "¿Se puede integrar Darwin con nuestros sistemas para responder con información específica?",
+    question: "Can Darwin integrate with our systems to answer with specific information?",
     answer:
-      "Sí, Darwin se conecta a tus sistemas internos, como CRMs, ERPs o bases de datos personalizadas, para ofrecer respuestas detalladas y específicas de cada cliente, asegurando que la información siempre esté actualizada.",
+      "Yes. Darwin connects to internal systems like CRMs, ERPs, or custom databases to provide detailed, customer-specific answers—keeping information always up to date.",
   },
 ];
 
@@ -55,13 +55,13 @@ const Faqs = () => {
             FAQs
           </span>
           <h2 className="mt-3 text-3xl md:text-4xl font-bold text-foreground">
-            Todo lo que Necesitas Saber sobre Darwin AI
+              Everything You Need to Know About Darwin AI
           </h2>
           <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
-            Descubre cómo Darwin AI puede transformar tus operaciones, automatizando procesos clave y mejorando la eficiencia de tu negocio.
+              Learn how Darwin AI can transform your operations by automating key processes and improving business efficiency.
           </p>
           <Button className="mt-6 rounded-full gap-2 group" size="lg">
-            Prueba Darwin
+              Try Darwin
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </Button>
         </motion.div>

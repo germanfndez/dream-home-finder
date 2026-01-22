@@ -15,13 +15,13 @@ const ChatDemo = () => {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-3xl md:text-4xl font-bold text-foreground leading-tight">
-              Muestra y arrienda propiedades por chat
+              Showcase and rent properties via chat
             </h2>
             <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
-              Tu asistente virtual agenda visitas, comparte fotos y detalles de departamentos o casas, y da seguimiento a interesados. Una forma más rápida de captar clientes y cerrar operaciones.
+              Your virtual assistant schedules tours, shares photos and details of apartments or houses, and follows up with interested leads. A faster way to capture demand and close deals.
             </p>
             <Button className="mt-8 rounded-full gap-2 group" size="lg">
-              Prueba darwin ahora
+              Try Darwin now
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Button>
           </motion.div>
@@ -45,7 +45,7 @@ const ChatDemo = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-foreground">María González</h4>
-                  <p className="text-xs text-green-600">En línea ahora</p>
+                  <p className="text-xs text-green-600">Online now</p>
                 </div>
               </div>
 
@@ -60,7 +60,7 @@ const ChatDemo = () => {
                   className="flex justify-end"
                 >
                   <div className="bg-primary text-primary-foreground rounded-2xl rounded-br-md px-4 py-2.5 max-w-[80%]">
-                    <p className="text-sm">Hola, busco un departamento de 2 habitaciones</p>
+                    <p className="text-sm">Hi, I'm looking for a 2-bedroom apartment</p>
                     <span className="text-xs text-primary-foreground/70 block text-right mt-1">15:04</span>
                   </div>
                 </motion.div>
@@ -75,7 +75,7 @@ const ChatDemo = () => {
                 >
                   <div className="bg-card border border-border rounded-2xl rounded-bl-md px-4 py-2.5 max-w-[80%] shadow-sm">
                     <p className="text-sm text-foreground">
-                      ¡Hola! 👋 Tengo varias opciones excelentes disponibles. ¿Prefieres zona norte o sur de la ciudad?
+                      Hi! 👋 I have several great options available. Do you prefer the north or south side of the city?
                     </p>
                     <span className="text-xs text-muted-foreground block text-right mt-1">15:04</span>
                   </div>
@@ -91,11 +91,11 @@ const ChatDemo = () => {
                 >
                   <div className="bg-card border border-border rounded-2xl overflow-hidden max-w-[85%] shadow-sm">
                     <div className="aspect-video bg-gradient-to-br from-secondary to-muted flex items-center justify-center">
-                      <span className="text-muted-foreground text-sm">📸 3 fotos del departamento</span>
+                      <span className="text-muted-foreground text-sm">📸 3 apartment photos</span>
                     </div>
                     <div className="p-3">
-                      <p className="text-sm font-medium text-foreground">Depto. 2 hab. - Providencia</p>
-                      <p className="text-xs text-muted-foreground mt-0.5">$850.000/mes • 65m²</p>
+                      <p className="text-sm font-medium text-foreground">2-bed apartment - Providencia</p>
+                      <p className="text-xs text-muted-foreground mt-0.5">$850,000/month • 65m²</p>
                     </div>
                   </div>
                 </motion.div>
@@ -106,7 +106,7 @@ const ChatDemo = () => {
                 <div className="flex items-center gap-2 bg-secondary rounded-full px-4 py-2">
                   <input
                     type="text"
-                    placeholder="Escribe un mensaje..."
+                    placeholder="Type a message..."
                     className="flex-1 bg-transparent text-sm text-foreground placeholder:text-muted-foreground outline-none"
                   />
                   <button className="w-8 h-8 rounded-full bg-primary flex items-center justify-center">

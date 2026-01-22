@@ -15,9 +15,9 @@ const Hero = () => {
           transition={{ duration: 0.6 }}
           className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight tracking-tight text-balance"
         >
-          Cierra Más Ventas con Darwin
+          Close More Deals with Darwin
           <br />
-          <span className="text-foreground">para el Sector Inmobiliario</span>
+          <span className="text-foreground">for Real Estate</span>
         </motion.h1>
 
         {/* Subtitle */}
@@ -27,7 +27,7 @@ const Hero = () => {
           transition={{ duration: 0.6, delay: 0.1 }}
           className="mt-6 text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto"
         >
-          Respuestas automáticas a consultas de propiedades, optimizando la experiencia del cliente.
+          Automated answers to property inquiries, improving the customer experience.
         </motion.p>
 
         {/* CTA Button */}
@@ -38,7 +38,7 @@ const Hero = () => {
           className="mt-8"
         >
           <Button size="lg" className="rounded-full px-8 py-6 text-base gap-2 group shadow-lg hover:shadow-xl transition-all">
-            Prueba darwin ahora
+            Try Darwin now
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </Button>
         </motion.div>
@@ -53,14 +53,14 @@ const Hero = () => {
           <div className="relative overflow-hidden rounded-2xl shadow-xl">
             <img
               src={heroImage1}
-              alt="Agente inmobiliario mostrando propiedades"
+              alt="Real estate agent showing properties"
               className="w-full h-[300px] md:h-[380px] object-cover"
             />
           </div>
           <div className="relative overflow-hidden rounded-2xl shadow-xl">
             <img
               src={heroImage2}
-              alt="Cierre de venta inmobiliaria"
+              alt="Real estate deal closing"
               className="w-full h-[300px] md:h-[380px] object-cover"
             />
           </div>

@@ -5,23 +5,23 @@ import featureConversion from "@/assets/feature-conversion.jpg";
 
 const features = [
   {
-    title: "Automatiza Consultas de Propiedades en Tiempo Real",
+    title: "Automate Property Inquiries in Real Time",
     description:
-      "Responde preguntas sobre características, precios y disponibilidad de propiedades con rapidez y precisión, mejorando la satisfacción del cliente.",
+      "Answer questions about features, pricing, and availability quickly and accurately, improving customer satisfaction.",
     image: featureConsultation,
     reverse: false,
   },
   {
-    title: "Facilita la Programación de Visitas",
+    title: "Make Tour Scheduling Effortless",
     description:
-      "Darwin automatiza el agendamiento de visitas y el seguimiento, optimizando el trabajo de los agentes.",
+      "Darwin automates tour scheduling and follow-ups, optimizing agents' workload.",
     image: featureScheduling,
     reverse: true,
   },
   {
-    title: "Mejora la Conversión y la Eficiencia",
+    title: "Improve Conversion and Efficiency",
     description:
-      "Darwin guía a los clientes hacia decisiones informadas, ayudando a cerrar más ventas y optimizando los recursos de tu equipo.",
+      "Darwin guides prospects to informed decisions, helping you close more deals while optimizing your team's resources.",
     image: featureConversion,
     reverse: false,
   },
