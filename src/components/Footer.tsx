@@ -21,7 +21,7 @@ const Footer = () => {
               <span className="text-xl font-bold">Darwin AI</span>
             </div>
             <p className="text-background/70 text-sm leading-relaxed">
-              Automatiza la atención al cliente y cierra más ventas con inteligencia artificial.
+              Automate customer support and close more deals with AI.
             </p>
           </motion.div>
 
@@ -32,12 +32,12 @@ const Footer = () => {
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
           >
-            <h4 className="font-semibold mb-4">Producto</h4>
+            <h4 className="font-semibold mb-4">Product</h4>
             <ul className="space-y-2 text-sm text-background/70">
-              <li><a href="#" className="hover:text-background transition-colors">Industrias</a></li>
-              <li><a href="#" className="hover:text-background transition-colors">Empleados IA</a></li>
-              <li><a href="#" className="hover:text-background transition-colors">Integraciones</a></li>
-              <li><a href="#" className="hover:text-background transition-colors">Precios</a></li>
+              <li><a href="#" className="hover:text-background transition-colors">Industries</a></li>
+              <li><a href="#" className="hover:text-background transition-colors">AI Employees</a></li>
+              <li><a href="#" className="hover:text-background transition-colors">Integrations</a></li>
+              <li><a href="#" className="hover:text-background transition-colors">Pricing</a></li>
             </ul>
           </motion.div>
 
@@ -47,12 +47,12 @@ const Footer = () => {
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
           >
-            <h4 className="font-semibold mb-4">Empresa</h4>
+            <h4 className="font-semibold mb-4">Company</h4>
             <ul className="space-y-2 text-sm text-background/70">
-              <li><a href="#" className="hover:text-background transition-colors">Nosotros</a></li>
+              <li><a href="#" className="hover:text-background transition-colors">About</a></li>
               <li><a href="#" className="hover:text-background transition-colors">Partners</a></li>
               <li><a href="#" className="hover:text-background transition-colors">Blog</a></li>
-              <li><a href="#" className="hover:text-background transition-colors">Carreras</a></li>
+              <li><a href="#" className="hover:text-background transition-colors">Careers</a></li>
             </ul>
           </motion.div>
 
@@ -64,15 +64,15 @@ const Footer = () => {
           >
             <h4 className="font-semibold mb-4">Legal</h4>
             <ul className="space-y-2 text-sm text-background/70">
-              <li><a href="#" className="hover:text-background transition-colors">Política de Privacidad</a></li>
-              <li><a href="#" className="hover:text-background transition-colors">Términos de Uso</a></li>
+              <li><a href="#" className="hover:text-background transition-colors">Privacy Policy</a></li>
+              <li><a href="#" className="hover:text-background transition-colors">Terms of Use</a></li>
               <li><a href="#" className="hover:text-background transition-colors">Cookies</a></li>
             </ul>
           </motion.div>
         </div>
 
         <div className="mt-12 pt-8 border-t border-background/20 text-center text-sm text-background/50">
-          <p>© 2025 Darwin AI. Todos los derechos reservados.</p>
+          <p>© 2025 Darwin AI. All rights reserved.</p>
         </div>
       </div>
     </footer>

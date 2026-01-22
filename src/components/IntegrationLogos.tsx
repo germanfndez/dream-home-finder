@@ -21,7 +21,7 @@ const IntegrationLogos = () => {
           viewport={{ once: true }}
           className="text-center text-sm font-medium text-muted-foreground uppercase tracking-wider"
         >
-          Integrado a las mejores herramientas
+          Integrated with the best tools
         </motion.h2>
       </div>
 

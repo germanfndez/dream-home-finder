@@ -11,9 +11,9 @@ const Navbar = () => {
       {/* Announcement Bar */}
       <div className="announcement-bar py-2.5 px-4 text-center">
         <p className="text-sm text-primary-foreground flex items-center justify-center gap-2">
-          🎉 7M USD de inversión.
+          🎉 $7M USD raised.
           <a href="#" className="font-medium underline-offset-2 hover:underline inline-flex items-center gap-1">
-            Leer más <ArrowRight className="w-3 h-3" />
+            Read more <ArrowRight className="w-3 h-3" />
           </a>
         </p>
       </div>
@@ -39,13 +39,13 @@ const Navbar = () => {
             {/* Desktop Navigation */}
             <div className="hidden lg:flex items-center">
               <div className="flex items-center bg-secondary rounded-full px-2 py-1.5">
-                <NavItem label="Industrias" hasDropdown />
-                <NavItem label="Empleados IA" hasDropdown />
-                <NavItem label="Nosotros" />
+                <NavItem label="Industries" hasDropdown />
+                <NavItem label="AI Employees" hasDropdown />
+                <NavItem label="About" />
                 <NavItem label="Partners" />
-                <NavItem label="Recursos" hasDropdown />
+                <NavItem label="Resources" hasDropdown />
                 <div className="flex items-center gap-1 px-3 py-1.5 text-sm text-muted-foreground cursor-pointer hover:text-foreground transition-colors">
-                  🌐 ES
+                  🌐 EN
                   <ChevronDown className="w-3.5 h-3.5" />
                 </div>
               </div>
@@ -57,7 +57,7 @@ const Navbar = () => {
                 Login
               </Button>
               <Button size="sm" className="rounded-full gap-2 group">
-                Prueba Darwin
+                Try Darwin
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
               </Button>
             </div>
@@ -81,15 +81,15 @@ const Navbar = () => {
             className="lg:hidden bg-background border-b border-border"
           >
             <div className="container mx-auto px-4 py-4 space-y-4">
-              <a href="#" className="block py-2 text-foreground hover:text-primary transition-colors">Industrias</a>
-              <a href="#" className="block py-2 text-foreground hover:text-primary transition-colors">Empleados IA</a>
-              <a href="#" className="block py-2 text-foreground hover:text-primary transition-colors">Nosotros</a>
+              <a href="#" className="block py-2 text-foreground hover:text-primary transition-colors">Industries</a>
+              <a href="#" className="block py-2 text-foreground hover:text-primary transition-colors">AI Employees</a>
+              <a href="#" className="block py-2 text-foreground hover:text-primary transition-colors">About</a>
               <a href="#" className="block py-2 text-foreground hover:text-primary transition-colors">Partners</a>
-              <a href="#" className="block py-2 text-foreground hover:text-primary transition-colors">Recursos</a>
+              <a href="#" className="block py-2 text-foreground hover:text-primary transition-colors">Resources</a>
               <div className="pt-4 space-y-3">
                 <Button variant="outline" className="w-full">Login</Button>
                 <Button className="w-full gap-2">
-                  Prueba Darwin
+                  Try Darwin
                   <ArrowRight className="w-4 h-4" />
                 </Button>
               </div>
